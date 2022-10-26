@@ -1,0 +1,120 @@
+.p
+{
+    font-family: Roboto;
+
+}
+.new{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: orange;
+    font-weight: bold;
+    font-family: Roboto;
+
+}
+.mac{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+
+}
+.super{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Roboto;
+
+}
+.from{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-size: 12px;
+    font-family: Roboto;
+
+
+}
+.buy{
+    margin-left: 290px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    border-radius: 14px;
+    background-color: rgb(0, 110, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    color: white;
+    font-family: Roboto;
+
+}
+.price{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: Roboto;
+
+}
+.usd{
+    font-size: 18px;
+    color: gray;
+    font-family: Roboto;
+
+    
+}
+.percentage{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: rgb(5, 176, 5);
+    font-family: Roboto;
+
+}
+.time{
+    color: gray;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+.percent2{
+    color: red;
+}
+
+.freecode{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+.free{
+    color: grey;
+}
+.webdev{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    width: 500px;
+    line-height: 22px;
+    font-family: Roboto;
+
+}
+.here{
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+.chp{
+    color: rgb(0, 140, 255);
+}

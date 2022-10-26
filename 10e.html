@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .div1{
+                border-radius: 12px;
+                box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+            }
+            p{
+                font-family: Arial;
+                margin-top: 4px;
+                margin-bottom: 0px;
+            }
+            .dp{
+                width: 140px;
+                height: 140px;
+                object-fit: cover;
+                border-radius: 10px;
+
+            }
+            .name{
+                font-weight: bold;
+                font-size: 16px;
+                margin-left: 6px;
+            }
+            .mutual{
+                font-size: 12px;
+                margin-left: 6px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .add{
+                margin-left: 6px;
+                font-size: 12px;
+                margin-bottom: 8px;
+                border: none;
+                border-radius: 8px;
+                color: white;
+                background-color: rgb(0, 89, 255);
+                padding-left: 14px;
+                padding-right: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-weight: bold;
+            }
+            .mutualimage{
+                width: 20px;
+                height: 20px;
+                border: none;
+                border-radius: 50px;
+                vertical-align: middle;
+            }
+            .mutual-row {
+                margin-left: 6px;
+                display: grid;
+                grid-template-columns: 20px 1fr;
+                margin-bottom: 10px;
+            }
+            .pagegrid {
+                column-gap: 20px;
+                display: grid;
+                grid-template-columns: 140px 140px 140px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pagegrid">
+            <div class="div1">
+                <img class="dp" src="Project/thumbnails/Cat1.jpeg">
+                <p class="name">
+                    Oliver
+                </p>
+            <div class="mutual-row">
+                <img class="mutualimage" src="Project/thumbnails/stephany-lorena-EEae2nmrIJ8-unsplash.jpg">
+                <p class="mutual">
+                    2 mutual friends
+                </p>
+            </div>
+                <button class="add">
+                    Add Friend
+                </button>    
+        </div>
+
+        <div class="div1">
+                <img class="dp" src="Project/thumbnails/FMGGz_zX0AA-SQg.jpg">
+                <p class="name">
+                    Doyin
+                </p>
+            <div class="mutual-row">
+                <img class="mutualimage" src="Project/thumbnails/stephany-lorena-EEae2nmrIJ8-unsplash.jpg">
+                <p class="mutual">
+                    3 mutual friends
+                </p>
+            </div>
+                <button class="add">
+                    Add Friend
+                </button>
+        </div>
+
+        <div class="div1">
+                <img class="dp" src="Project/thumbnails/stephany-lorena-EEae2nmrIJ8-unsplash.jpg">
+                <p class="name">
+                    Kofo
+                </p>
+            <div class="mutual-row">
+                <img class="mutualimage" src="Project/thumbnails/stephany-lorena-EEae2nmrIJ8-unsplash.jpg">
+                <p class="mutual">
+                    4 mutual friends
+                </p>
+            </div>
+            <div>
+                <button class="add">
+                    Add Friend
+                </button>
+            </div>
+        </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        div {
+            font-family: Roboto;
+
+        }
+
+        .dp {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        .box {
+            display: flex;
+            height: 200px;
+            width: 420px;
+        }
+
+        .username {
+            color: rgb(101, 101, 101);
+        }
+
+        .name {
+            color: black;
+            font-weight: 700;
+        }
+
+        .feed {
+            margin-left: 10px;
+            flex: 1;
+        }
+
+        .tweet {
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        .link-box {
+            width: 360px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .gray-box {
+            border: none;
+            width: 100px;
+            height: inherit;
+            border-radius: 20px 0 0 20px;
+            background-color: rgb(101, 101, 101);
+        }
+
+        .link {
+            flex: 1;
+            height: 98%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-color: rgb(101, 101, 101);
+            border-width: 1px 1px 1px 0px;
+            border-style: solid;
+        }
+
+        .website {
+            margin-left: 10px;
+            color: rgb(101, 101, 101);
+        }
+
+        .description {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div> <img class="dp" src="Project/random dp/avatar-e0a7d6c2f481422eb2447a835f188a02.jpg"></div>
+        <div class="feed">
+            <div class="username"> <span class="name">supersimple.dev</span> @SuperSimpleDev</div>
+            <div class="tweet">What is backend web development? A complete overview. New video is up! </div>
+            <div class="link-box">
+                <div class="gray-box"></div>
+                <div class="link">
+                    <div class="website">youtube.com</div>
+                    <div class="description">Backend web development-a complete overview (2021)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
