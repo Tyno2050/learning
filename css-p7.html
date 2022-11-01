@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .cloth-column{
+                position: relative;
+                display: inline-block;
+                height: 300px;
+                width: 250px;
+                border-radius: 10px;
+                box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+
+            }
+            .img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;  
+                object-position: bottom;    
+            }
+            
+            .discount {
+                position: absolute;
+                top: 8px;
+                right: 0px;
+                font-family: arial;
+                font-size: 14px;
+                font-weight: 700;
+                color: white;
+                background-color: black;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .white-box {
+                height: 100px;
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+                background-color: rgba(255, 255, 255, 0.8);
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+            .add {
+                background-color: white;
+                color: bla;
+                font-family: Arial;
+                font-weight: 700;
+                padding: 8px 14px 8px 14px;
+                border-width: 1.5px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="cloth-column">
+                <div class="discount"> 20% OFF</div>
+                <img class="img" src="Project/images/1 (1).jpg">
+                <div class="white-box">
+                    <div><button class="add"> 
+                        Add to Cart
+                    </button></div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

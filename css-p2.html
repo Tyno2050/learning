@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                font-family: Arial;
+            }
+            .overlay {
+                background-color: rgba(0, 0, 0, 0.5);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .sidebar {
+                background-color: green;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                width: 100px;
+            }
+            .title {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .content {
+                font-size: 12px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+            .modal {
+                background-color: white;
+                width: 250px;
+                border-radius: 6px;
+                padding: 14px 10px 14px 10px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div>
+          <div class="sidebar"> </div> 
+          <div class="overlay">
+            <div class="modal">
+                <div class="title"> Modal Title</div>
+                <div class="content"> This is a modal</div>
+                <div> <button>Close</button></div>
+            </div>
+
+          </div> 
+
+
+        </div>
+    </body>
+</html>
