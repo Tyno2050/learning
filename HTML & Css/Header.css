@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    position: fixed;  
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    
+               
+}
+
+.menu,
+.upload,
+.youtube-apps,
+.notifications,
+.mic-icon,
+.search-icon {
+    height: 24px;
+    cursor: pointer;
+}
+.channel {
+    height: 30px;
+}
+
+.section-2 button img {
+    height: 20px;
+}
+
+           
+.section-1 {
+    width: 130px;
+    display: flex;
+    padding-left: 17px;
+    align-items: center;
+}
+
+.section-2 {
+    margin-left: 95px;
+    margin-right: 60px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+.channel {
+    margin-right: 30px;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.search-bar {
+    height: 35px;
+    width: 0;
+    flex: 1;
+    max-width: 320px;
+    padding: 0 0 0 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(185, 183, 183);
+    /* box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.08); */
+    
+}
+.search-bar:focus-visible {
+    border: 0px !important;
+}
+.search-bar:active {
+    border: 1px solid rgb(161, 192, 255);
+   
+}
+.search-button {
+    width: 58px;
+    height: 36.99px;
+    margin-left: -2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(185, 183, 183);
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+.mic-button {
+    border: none;
+    border-radius: 20px;
+    width: 35.98px;
+    height: auto;
+    margin-left: 10px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
