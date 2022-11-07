@@ -1,0 +1,56 @@
+        h3,
+        p {
+            margin: 0;
+            font-family: Montserrat, Arial;
+        }
+        .sidebar {
+            background-color: black;
+            position: fixed;
+            width: 200px;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            padding-left: 20px;
+            padding-top: 20px;
+            z-index: 100;
+        }
+        .spotify-logo {
+            height: 50px;
+            width: 130px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .img-div {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .icons {
+            height: 25px;
+            width: 25px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+
+        }
+
+
+        .icon-title {
+            color: rgb(164, 164, 164);
+            font-size: 12px;
+            width: 100px;
+            white-space: nowrap; 
+
+        }
+        .cook-priv {
+            color: rgb(164, 164, 164);
+            font-size: 10px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+        .bottom-class {
+            position: fixed;
+            bottom: 40px
+        }
