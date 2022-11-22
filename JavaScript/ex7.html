@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function toUpper (arrString) {
+            let arr = [];
+            arrString.forEach (function (strTitle){
+                arr.push (strTitle.toUpperCase());
+
+            });
+            console.log (arr);
+        }
+        toUpper (["water", "bring", "sing", "tink"]);
+
+        function arrayDouble (arrStr) {
+            let result = [];
+            arrStr.forEach (function (resTitle) {
+                    result.push (resTitle);
+                    result.push (resTitle);
+            })
+            console.log (result);
+        }
+        arrayDouble(["mind", "sing", "think"]);
+
+        function arraySum (numbers) {
+            let total = 0;
+
+            numbers.forEach (function (nums){
+            total = total + nums;
+            })
+            console.log (total);
+        }
+        arraySum ([3,5,6]);
+
+
+    </script>
+</body>
+</html>
