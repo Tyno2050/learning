@@ -3,7 +3,12 @@ body::before{
     content: '';
     height: 60px;
 }
-
+#instructors::before {
+    display: block;
+    content: '';
+    height: 60px;
+    margin-top: -40px;
+}
 
 
 @media(min-width: 768px) {
